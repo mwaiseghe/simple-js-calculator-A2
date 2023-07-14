@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.calc {
+    display: flex;
+    width: 50%;
+    height: 60%;
+    background-color: grey;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.top {
+    margin:20px
+}
+
+.calcForm {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-inputs {
+    display: flex;
+
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group select option{
+    color: black;
+}
+
+.calculate-button{
+    padding-top: 10px;
+}
+
+.calculate-button button{
+    padding: 10px;
+}

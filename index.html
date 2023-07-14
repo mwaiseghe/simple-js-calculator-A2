@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <div class="top">
+                <p>Enter Your Math Here</p>
+                <form class="calcForm" action="" method="post">
+                    <div class="form-inputs">
+                        <div class="form-group">
+                            <label for="firstNumber">First Number</label>
+                            <input type="number" name="firstNumber" id="firstNumber">
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="operation">Operation</label>
+                            <select name="operation" id="operator">
+                                <option value="+">Add</option>
+                                <option value="-">Minus</option>
+                                <option value="*">Multiplication</option>
+                                <option value="/">Division</option>
+                                
+                            </select>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="secondNumber">Second Number</label>
+                            <input type="number" name="secondNumber" id="lastNumber">
+                        </div>
+                    </div>
+
+                    <div class="form-group calculate-button">
+                        <button id="calcButton">Calculate</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="answer">
+                <h2></h2>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
